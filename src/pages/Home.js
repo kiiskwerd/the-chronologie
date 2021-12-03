@@ -1,13 +1,13 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Landing } from "./Landing";
-import { Gallery } from "./Gallery";
-
 export class Home extends React.Component {
   render() {
     return (
       <>
-        <Router>
+      testing
+      <Landing/>
+        {/* <Router>
           <Routes>
             <Route exact path="/" element={<Landing />} />
             <Route
@@ -20,7 +20,7 @@ export class Home extends React.Component {
               }
             />
           </Routes>
-        </Router>
+        </Router> */}
       </>
     );
   }
