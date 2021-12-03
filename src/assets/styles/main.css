@@ -24,9 +24,9 @@ main {
   z-index: 10;
 }
 
-img {
+/* img {
   opacity: 80% !important;
-}
+} */
 
 .placeholder {
   height: 20px;
