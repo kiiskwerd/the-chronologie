@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/the-chronologie/static/css/main.e295bf73.chunk.css",
+    "main.js": "/the-chronologie/static/js/main.2935d189.chunk.js",
+    "main.js.map": "/the-chronologie/static/js/main.2935d189.chunk.js.map",
+    "runtime-main.js": "/the-chronologie/static/js/runtime-main.8f7f6a96.js",
+    "runtime-main.js.map": "/the-chronologie/static/js/runtime-main.8f7f6a96.js.map",
+    "static/js/2.fb89a5ac.chunk.js": "/the-chronologie/static/js/2.fb89a5ac.chunk.js",
+    "static/js/2.fb89a5ac.chunk.js.map": "/the-chronologie/static/js/2.fb89a5ac.chunk.js.map",
+    "index.html": "/the-chronologie/index.html",
+    "static/css/main.e295bf73.chunk.css.map": "/the-chronologie/static/css/main.e295bf73.chunk.css.map",
+    "static/js/2.fb89a5ac.chunk.js.LICENSE.txt": "/the-chronologie/static/js/2.fb89a5ac.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/the-chronologie/static/media/001.0fb3c17c.jpg",
+    "static/media/logo02.1576a5be.png": "/the-chronologie/static/media/logo02.1576a5be.png",
+    "static/media/logo03.b9b253e7.png": "/the-chronologie/static/media/logo03.b9b253e7.png",
+    "static/media/logo04.2b992b6d.png": "/the-chronologie/static/media/logo04.2b992b6d.png",
+    "static/media/logo06.8911cb5d.png": "/the-chronologie/static/media/logo06.8911cb5d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8f7f6a96.js",
+    "static/js/2.fb89a5ac.chunk.js",
+    "static/css/main.e295bf73.chunk.css",
+    "static/js/main.2935d189.chunk.js"
+  ]
+}
