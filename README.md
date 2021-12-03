@@ -1,4 +1,4 @@
-# Chronologie Project Startup
+# The Chronologie Project Startup
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -39,23 +39,23 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 1. Install github pages as a dev dependency
 
-    > `npm install gh-pages --save-dev`
+        npm install gh-pages --save-dev
 
 1. open `package.json` and make the following changes:
 
-    > `"homepage": "https://myusername.github.io/guide-react-gh-pages"`
+        "homepage": "https://myusername.github.io/guide-react-gh-pages"
 
     
-    ***update exisiting scripts:**
-
-    >  `"scripts": {`
-    >  `"predeploy": "npm run build",`
-    >  `"deploy": "gh-pages -d build",`
-    >  `"start": "react-scripts start",`
-    >  `"build": "react-scripts build",`
-    >  `}`
+    **update exisiting scripts:*
+    
+        "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "start": "react-scripts start",
+        "build": "react-scripts build", 
+        }
 
 1. deploy the app:
  
-    > `npm run deploy`
+        npm run deploy
 
