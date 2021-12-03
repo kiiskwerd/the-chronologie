@@ -35,20 +35,28 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Github Pages Deployment
 
-### `npm install gh-pages --save-dev`
+1. push to main branch working application
 
-Edit `package.json`:
+1. install github pages as a dev dependency
+#### `npm install gh-pages --save-dev`
 
-1. add `"homepage": "https://myusername.github.io/guide-react-gh-pages"`
+1. open `package.json` and make the following changes:
+>   `"homepage": "https://myusername.github.io/guide-react-gh-pages"`
 
-1. update exisiting scripts 
-    >"scripts": {
-    >  "predeploy": "npm run build",
-    >  "deploy": "gh-pages -d build",
-    >  "start": "react-scripts start",
-    >  "build": "react-scripts build",
-    >}
+#### update exisiting scripts:
 
-1. deploy the app
+>   `"scripts": {`
 
-### `npm install gh-pages --save-dev`
+>   `"predeploy": "npm run build",`
+
+>   `"deploy": "gh-pages -d build",`
+
+>   `"start": "react-scripts start",`
+
+>   `"build": "react-scripts build",`
+
+>   `}`
+
+1. deploy the app 
+#### `npm run deploy`
+
