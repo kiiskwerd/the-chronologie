@@ -35,6 +35,10 @@
   align-content: center;
 }
 
+.logo-container__1 {
+  text-align: center;
+}
+
 /*custom button*/
 .btn-modal-close {
   border: 5px solid #faf9fe;

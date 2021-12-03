@@ -24,7 +24,7 @@ export const Landing = () => {
               <h2 className="heading">expertise</h2>
               <div>
                 <p>frontend web development</p>
-                <p className="progress">----------</p>
+                <p className="progress">-------</p>
                 <p>web design</p>
                 <p className="progress">--------</p>
                 <p>graphic design</p>
