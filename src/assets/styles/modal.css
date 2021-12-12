@@ -7,12 +7,16 @@
   background: rgba(0, 0, 0, 0.6);
 }
 
+.modal.display-block {
+  margin: auto;
+}
+
 .modal-main {
   position: fixed;
   border-radius: 8px;
   background: #fee9e5;
-  width: 55%;
-  height: 40%;
+  width: auto;
+  height: auto;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -54,71 +58,4 @@
 .btn-modal-close:active {
   background-color: #3a3d42;
   color: #faf9fe;
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  img {
-    height: 26px;
-  }
-  .logo-container {
-    display: block;
-  }
-  div.logo-container {
-    padding: 0 !important;
-    margin: 0 auto;
-  }
-  div.logo-container__1 {
-    padding: 0 26px !important;
-  }
-  .btn-modal-close {
-    font-size: 11px;
-  }
-  .modal-main {
-    position: fixed;
-    border-radius: 8px;
-    width: 93%;
-    height: 50%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .modal-body {
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up)*/
-@media only screen and (min-width: 600px) {
-  .modal-main {
-    /* background: #161616; */
-    width: 88%;
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .modal-main {
-    /* background: #7216eb; */
-  }
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .modal-main {
-    /* background: #eb1681; */
-  }
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .modal-main {
-    /* background: #320efd; */
-    width: 50%;
-  }
 }

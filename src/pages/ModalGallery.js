@@ -1,5 +1,6 @@
 import React from "react";
 import "../assets/styles/modal.css";
+import "../assets/styles/mediaquery.css";
 import img1 from "../assets/images/logo00.png";
 import img2 from "../assets/images/logo01.png";
 import img3 from "../assets/images/logo02.png";

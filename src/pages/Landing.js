@@ -13,26 +13,35 @@ export const Landing = () => {
         <section className="section parallax bg1">
           <div className="content">
             <h1 className="title">karen key</h1>
-            <p className="ls">
-              software developer / designer / aspiring artist
-            </p>
+            <div className="ls_container">
+              <p className="ls">
+                software developer / designer / aspiring artist
+              </p>
+            </div>
           </div>
         </section>
         <section className="section parallax static">
           <div className="container">
             <div className="content_box">
-              <h2 className="heading">expertise</h2>
-              <div>
-                <p>frontend web development</p>
-                <p className="progress">-------</p>
-                <p>web design</p>
-                <p className="progress">--------</p>
-                <p>graphic design</p>
-                <p className="progress">---------</p>
-                <p>layout design</p>
-                <p className="progress">---------</p>
-                <p>music production</p>
-                <p className="progress">------</p>
+              <div className="expertise-container">
+                <h2 className="heading">expertise</h2>
+
+                  <p className="expertise-container_text">frontend web development</p>
+                  <p className="progress">-------</p>
+
+                  <p className="expertise-container_text">web design</p>
+                  <p className="progress">--------</p>   
+
+                  <p className="expertise-container_text">graphic design</p>
+                  <p className="progress">---------</p>
+
+                  <p className="expertise-container_text">layout design</p>
+                  <p className="progress">---------</p>
+
+
+                  <p className="expertise-container_text">music production</p>
+                  <p className="progress">------</p>
+
               </div>
             </div>
           </div>
@@ -70,7 +79,8 @@ export const Landing = () => {
                       <a
                         className="btn-more"
                         href="https://www.behance.net/karencabingatan"
-                        target="_blank" rel="noreferrer"
+                        target="_blank"
+                        rel="noreferrer"
                       >
                         view more
                       </a>

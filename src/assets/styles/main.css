@@ -136,7 +136,9 @@ main {
 /* The styling for the static div. */
 .static {
   background: #fee9e5;
-  /* z-index: 1; */
+}
+.static-1 {
+  background: #ffffff;
 }
 
 .stripe {
@@ -162,14 +164,16 @@ main {
 .title {
   font-family: "Sacramento", cursive;
   font-weight: normal;
-  font-size: 290px !important;
+  font-size: 290px;
+  text-shadow: -6px 6px 3px #fde7e2 !important;
   color: #62505b;
 }
 .heading {
   font-family: "Sacramento", cursive;
   font-weight: normal;
-  font-size: 65px !important;
+  font-size: 65px;
   color: #80554d;
+  text-align: center;
 }
 
 .text-white {
@@ -223,21 +227,11 @@ main {
   color: #faf9fe;
 }
 
-/* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen and (max-width: 992px) {
-  .column {
-    width: 50%;
-  }
-  .title {
-    font-size: 200px !important;
-  }
-  .ls {
-    font-size: 13px !important;
-  }
-}
-
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  /* .static {
+    background: #919191 !important;
+  } */
   p,
   h3,
   footer {
@@ -251,12 +245,11 @@ main {
     padding: 3px 8px;
     margin: 2px;
   }
-  .title {
-    font-size: 100px !important;
-  }
+
   .ls {
-    font-size: 13px !important;
+    margin: 0 6px;
   }
+
   .progress {
     font-size: 43px;
     margin: -14px 0;
@@ -273,13 +266,71 @@ main {
   }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets, 768px and below) */
 @media only screen and (max-width: 768px) {
+  .title {
+    font-size: 25vw;
+  }
+  .ls {
+    font-size: 1.5vw;
+    font-weight: bold;
+  }
+  /* .static {
+    background: #b15555 !important;
+  } */
   .testimonial-container {
-    flex-direction: column;
+    flex-direction: column !important;
   }
   .testimonial-1,
   .testimonial-2 {
     border-radius: 10px;
   }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .title {
+    font-size: 25vw;
+  }
+  /* .static {
+    background: #7216eb !important;
+  } */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .title {
+    font-size: 25vw;
+  }
+  /* .static {
+    background: #eb1681 !important;
+  } */
+}
+
+@media only screen and (max-height: 600px) {
+  .title {
+    font-size: 25vw;
+  }
+  .expertise-container {
+    margin: auto;
+  }
+  p.expertise-container_text {
+    margin: -10px 0 -25px 0;
+  }
+  .progress{
+    margin: -10px 0 -5px 0px;
+  }
+  /* .static {
+    background: #cd86d6 !important;
+  } */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .title {
+    font-size: 20vw;
+  }
+  /* .static {
+    background: #19913d !important;
+  } */
 }
