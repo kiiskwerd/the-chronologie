@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/the-chronologie/static/css/main.ff86fd03.chunk.css",
-    "main.js": "/the-chronologie/static/js/main.91de0c48.chunk.js",
-    "main.js.map": "/the-chronologie/static/js/main.91de0c48.chunk.js.map",
+    "main.css": "/the-chronologie/static/css/main.45478c98.chunk.css",
+    "main.js": "/the-chronologie/static/js/main.edc8da08.chunk.js",
+    "main.js.map": "/the-chronologie/static/js/main.edc8da08.chunk.js.map",
     "runtime-main.js": "/the-chronologie/static/js/runtime-main.8f7f6a96.js",
     "runtime-main.js.map": "/the-chronologie/static/js/runtime-main.8f7f6a96.js.map",
-    "static/js/2.a8f0052b.chunk.js": "/the-chronologie/static/js/2.a8f0052b.chunk.js",
-    "static/js/2.a8f0052b.chunk.js.map": "/the-chronologie/static/js/2.a8f0052b.chunk.js.map",
+    "static/js/2.60b3e8b2.chunk.js": "/the-chronologie/static/js/2.60b3e8b2.chunk.js",
+    "static/js/2.60b3e8b2.chunk.js.map": "/the-chronologie/static/js/2.60b3e8b2.chunk.js.map",
     "index.html": "/the-chronologie/index.html",
-    "static/css/main.ff86fd03.chunk.css.map": "/the-chronologie/static/css/main.ff86fd03.chunk.css.map",
-    "static/js/2.a8f0052b.chunk.js.LICENSE.txt": "/the-chronologie/static/js/2.a8f0052b.chunk.js.LICENSE.txt",
+    "static/css/main.45478c98.chunk.css.map": "/the-chronologie/static/css/main.45478c98.chunk.css.map",
+    "static/js/2.60b3e8b2.chunk.js.LICENSE.txt": "/the-chronologie/static/js/2.60b3e8b2.chunk.js.LICENSE.txt",
     "static/media/main.css": "/the-chronologie/static/media/001.0fb3c17c.jpg",
     "static/media/logo02.1576a5be.png": "/the-chronologie/static/media/logo02.1576a5be.png",
     "static/media/logo03.b9b253e7.png": "/the-chronologie/static/media/logo03.b9b253e7.png",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.8f7f6a96.js",
-    "static/js/2.a8f0052b.chunk.js",
-    "static/css/main.ff86fd03.chunk.css",
-    "static/js/main.91de0c48.chunk.js"
+    "static/js/2.60b3e8b2.chunk.js",
+    "static/css/main.45478c98.chunk.css",
+    "static/js/main.edc8da08.chunk.js"
   ]
 }
