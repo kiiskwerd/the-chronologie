@@ -245,11 +245,6 @@ main {
     padding: 3px 8px;
     margin: 2px;
   }
-
-  .ls {
-    margin: 0 6px;
-  }
-
   .progress {
     font-size: 43px;
     margin: -14px 0;
@@ -272,8 +267,9 @@ main {
     font-size: 25vw;
   }
   .ls {
-    font-size: 1.5vw;
+    font-size: 1.5vh;
     font-weight: bold;
+    margin: auto;
   }
   /* .static {
     background: #b15555 !important;
