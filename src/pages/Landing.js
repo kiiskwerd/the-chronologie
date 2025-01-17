@@ -15,7 +15,7 @@ export const Landing = () => {
             <h1 className="title">karen key</h1>
             <div className="ls_container">
               <p className="ls">
-                software developer / designer / aspiring artist
+                software developer / designer / qa engineer / aspiring artist
               </p>
             </div>
           </div>
@@ -25,9 +25,11 @@ export const Landing = () => {
             <div className="content_box">
               <div className="expertise-container">
                 <h2 className="heading">expertise</h2>
-
+                
+                <div className="expertise-flex-container">
                   <p className="expertise-container_text">frontend web development</p>
                   <p className="progress">-------</p>
+                </div>
 
                   <p className="expertise-container_text">web design</p>
                   <p className="progress">--------</p>   
@@ -35,7 +37,10 @@ export const Landing = () => {
                   <p className="expertise-container_text">graphic design</p>
                   <p className="progress">---------</p>
 
-                  <p className="expertise-container_text">layout design</p>
+                  <p className="expertise-container_text">ui/ux</p>
+                  <p className="progress">---------</p>
+
+                  <p className="expertise-container_text">qa testing</p>
                   <p className="progress">---------</p>
 
 
@@ -55,7 +60,7 @@ export const Landing = () => {
                   <div className="testimonial-1">
                     <div>
                       <h3>joint projects</h3>
-                      <p className="description text-white">
+                      <p className="description text-dark">
                         the projects I get to work with in a team
                       </p>
                     </div>
@@ -70,7 +75,7 @@ export const Landing = () => {
                   <div className="testimonial-2">
                     <div>
                       <h3>personal</h3>
-                      <p className="description text-white">
+                      <p className="description text-dark">
                         these are some of my sideline projects
                       </p>
                     </div>

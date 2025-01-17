@@ -94,12 +94,12 @@ main {
 }
 
 .testimonial-1 {
-  background-color: #e4ccc7;
+  background-color: #9cd5db;
   border-radius: 10px 0 0 10px;
 }
 
 .testimonial-2 {
-  background-color: #c5c2c1;
+  background-color: #e3b2d0;
   border-radius: 0 10px 10px 0;
 }
 
@@ -135,7 +135,7 @@ main {
 
 /* The styling for the static div. */
 .static {
-  background: #fee9e5;
+  background: #f4d2e3;
 }
 .static-1 {
   background: #ffffff;
@@ -174,10 +174,26 @@ main {
   font-size: 65px;
   color: #80554d;
   text-align: center;
+  text-shadow: 3px 4px #f6f8fe;
+}
+
+
+.expertise-container_text,
+.progress{
+  font-family: "Roboto Slab", serif;
+  color: #4e4e4e;
+}
+
+.progress{
+   text-shadow: 2px 2px #bb568b96;
 }
 
 .text-white {
   color: #faf9fe;
+}
+
+.text-dark {
+  color: #3e3d3d;
 }
 
 .ls {
