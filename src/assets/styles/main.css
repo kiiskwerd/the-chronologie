@@ -29,9 +29,10 @@ main {
 } */
 
 .placeholder {
-  height: 20px;
-  font-size: smaller;
+  height: 15px;
+  font-size: 10px;
   text-align: center;
+  background: #f4d2e3cf;
 }
 
 .parallax {
@@ -177,15 +178,25 @@ main {
   text-shadow: 3px 4px #f6f8fe;
 }
 
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px 102px;
+}
+
+.expertise-item {
+  display: flex;
+  flex-direction: column;
+}
 
 .expertise-container_text,
-.progress{
+.progress {
   font-family: "Roboto Slab", serif;
   color: #4e4e4e;
 }
 
-.progress{
-   text-shadow: 2px 2px #bb568b96;
+.progress {
+  text-shadow: 3px 2px #bb568b96;
 }
 
 .text-white {
@@ -218,7 +229,8 @@ main {
 
 .progress {
   font-family: "Roboto Slab", serif !important;
-  font-size: 52px;
+  font-size: 35px;
+  letter-spacing: 1px;
   font-weight: bolder;
   margin: -10px 0 20px 0;
 }
@@ -275,6 +287,9 @@ main {
   .btn-more {
     padding: 14px 95px;
   }
+  .expertise-grid {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and below) */
@@ -296,6 +311,10 @@ main {
   .testimonial-1,
   .testimonial-2 {
     border-radius: 10px;
+  }
+
+  .expertise-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -329,9 +348,10 @@ main {
   p.expertise-container_text {
     margin: -10px 0 -25px 0;
   }
-  .progress{
+  .progress {
     margin: -10px 0 -5px 0px;
   }
+
   /* .static {
     background: #cd86d6 !important;
   } */

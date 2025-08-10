@@ -14,43 +14,53 @@ export const Landing = () => {
           <div className="content">
             <h1 className="title">karen key</h1>
             <div className="ls_container">
-              <p className="ls">
-                software developer / designer / qa engineer / aspiring artist
-              </p>
+              <p className="ls">software developer / qa engineer / designer</p>
             </div>
           </div>
         </section>
         <section className="section parallax static">
-          <div className="container">
+          <div className="content">
             <div className="content_box">
               <div className="expertise-container">
                 <h2 className="heading">expertise</h2>
-                
-                <div className="expertise-flex-container">
-                  <p className="expertise-container_text">frontend web development</p>
-                  <p className="progress">-------</p>
+
+                <div className="expertise-grid">
+                  <div className="expertise-item">
+                    <p className="expertise-container_text">
+                      frontend web development
+                    </p>
+                    {/* 7/10 */}
+                    <p className="progress">●●●●●●●</p>
+                  </div>
+
+                  <div className="expertise-item">
+                    <p className="expertise-container_text">website design</p>
+                    {/* 8/10 */}
+                    <p className="progress">●●●●●●●●</p>
+                  </div>
+
+                  <div className="expertise-item">
+                    <p className="expertise-container_text">
+                      ui/ux development
+                    </p>
+                    <p className="progress">●●●●●●●</p>
+                  </div>
+
+                  <div className="expertise-item">
+                    <p className="expertise-container_text">qa & automation</p>
+                    <p className="progress">●●●●●●●</p>
+                  </div>
+
+                  <div className="expertise-item">
+                    <p className="expertise-container_text">music production</p>
+                    <p className="progress">●●●●●●</p>
+                  </div>
                 </div>
-
-                  <p className="expertise-container_text">web design</p>
-                  <p className="progress">--------</p>   
-
-                  <p className="expertise-container_text">graphic design</p>
-                  <p className="progress">---------</p>
-
-                  <p className="expertise-container_text">ui/ux</p>
-                  <p className="progress">---------</p>
-
-                  <p className="expertise-container_text">qa testing</p>
-                  <p className="progress">---------</p>
-
-
-                  <p className="expertise-container_text">music production</p>
-                  <p className="progress">------</p>
-
               </div>
             </div>
           </div>
         </section>
+
         <section className="section parallax static">
           <div className="container">
             <div className="content_box">
@@ -97,7 +107,7 @@ export const Landing = () => {
           </div>
         </section>
         <footer className="placeholder">
-          © Copyright 2021 | All rights reserved | karencabingatan@gmail.com
+          © Copyright 2025 | All rights reserved | karencabingatan@gmail.com
         </footer>
       </main>
     </div>
