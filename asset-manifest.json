@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/the-chronologie/static/css/main.45478c98.chunk.css",
-    "main.js": "/the-chronologie/static/js/main.edc8da08.chunk.js",
-    "main.js.map": "/the-chronologie/static/js/main.edc8da08.chunk.js.map",
+    "main.css": "/the-chronologie/static/css/main.82604978.chunk.css",
+    "main.js": "/the-chronologie/static/js/main.c3043c5f.chunk.js",
+    "main.js.map": "/the-chronologie/static/js/main.c3043c5f.chunk.js.map",
     "runtime-main.js": "/the-chronologie/static/js/runtime-main.8f7f6a96.js",
     "runtime-main.js.map": "/the-chronologie/static/js/runtime-main.8f7f6a96.js.map",
     "static/js/2.60b3e8b2.chunk.js": "/the-chronologie/static/js/2.60b3e8b2.chunk.js",
     "static/js/2.60b3e8b2.chunk.js.map": "/the-chronologie/static/js/2.60b3e8b2.chunk.js.map",
     "index.html": "/the-chronologie/index.html",
-    "static/css/main.45478c98.chunk.css.map": "/the-chronologie/static/css/main.45478c98.chunk.css.map",
+    "static/css/main.82604978.chunk.css.map": "/the-chronologie/static/css/main.82604978.chunk.css.map",
     "static/js/2.60b3e8b2.chunk.js.LICENSE.txt": "/the-chronologie/static/js/2.60b3e8b2.chunk.js.LICENSE.txt",
     "static/media/main.css": "/the-chronologie/static/media/001.0fb3c17c.jpg",
     "static/media/logo02.1576a5be.png": "/the-chronologie/static/media/logo02.1576a5be.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.8f7f6a96.js",
     "static/js/2.60b3e8b2.chunk.js",
-    "static/css/main.45478c98.chunk.css",
-    "static/js/main.edc8da08.chunk.js"
+    "static/css/main.82604978.chunk.css",
+    "static/js/main.c3043c5f.chunk.js"
   ]
 }
